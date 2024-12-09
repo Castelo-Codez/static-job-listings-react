@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    .league-spartan-100 {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+    }
+    .league-spartan-200 {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+    .league-spartan-300 {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .league-spartan-400 {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .league-spartan-500 {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .league-spartan-600 {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .league-spartan-700 {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .league-spartan-800 {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+    }
+    .league-spartan-900 {
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+    }
+    #root {
+        @apply relative;
+    }
+    body {
+        @apply bg-n-LightGrayishCyanBackground;
+    }
+    .job-list {
+        > li {
+            &:first-child {
+                @apply border-l-4 border-l-p-DesaturatedDarkCyan;
+                & + li {
+                    @apply border-l-4 border-l-p-DesaturatedDarkCyan;
+                }
+            }
+        }
+    }
+}
